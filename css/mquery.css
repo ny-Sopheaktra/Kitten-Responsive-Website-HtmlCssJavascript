@@ -1,0 +1,73 @@
+/* add css media queries in here */
+@media screen and (min-width: 820px) {
+    .banner {
+        height: calc(100vh - 105px);
+        padding-top: 80px;
+        padding-bottom: 0px;
+    }
+
+    .banner .our-slogan {
+        margin-bottom: 0px;
+    }
+
+    .banner .our-slogan .smalltalk {
+        font-size: 1.1rem;
+    }
+
+    .banner .placeholder {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1022px) {
+    header {
+        height: auto;
+    }
+
+    header nav {
+        width: auto;
+        padding: 0px;
+        background-color: transparent;
+        position: static;
+        box-shadow: none;
+    }
+
+
+    header nav ul li {
+        display: inline-block;
+    }
+
+    header nav ul li:not(.button) a:hover {
+        font-size: .9rem;
+        font-weight: 500;
+        margin: 0px 0px 0px 25px;
+    }
+
+    header nav ul li.button a {
+        text-decoration: underline;
+    }
+
+    .hamb {
+        display: none;
+    }
+
+    .banner {
+        padding-top: 100px;
+        padding-bottom: 0px;
+    }
+
+    .banner .our-slogan .title {
+        font-size: 4rem;
+    }
+    
+    .banner .our-slogan .smalltalk {
+        font-size: 1.1rem;
+        margin-bottom: 60px;
+    }
+
+    .banner .placeholder {
+        width: 700px;
+        right: 10%;
+    }
+
+}
